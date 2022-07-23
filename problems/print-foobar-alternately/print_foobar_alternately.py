@@ -7,15 +7,13 @@ class FooBar:
 
     def foo(self, printFoo: 'Callable[[], None]') -> None:
         
-        for i in range(self.n):
-            
+        for _ in range(self.n):
             # printFoo() outputs "foo". Do not change or remove this line.
-        	printFoo()
+            printFoo()
 
 
     def bar(self, printBar: 'Callable[[], None]') -> None:
         
-        for i in range(self.n):
-            
+        for _ in range(self.n):
             # printBar() outputs "bar". Do not change or remove this line.
-        	printBar()
+            printBar()
